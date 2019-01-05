@@ -5,7 +5,7 @@ A source code generator for [Kotlin](https://kotlinlang.org/) data classes to au
 
 # How to use JvmBuilder
 
-When annotating a Kotlin `data class` with `@JvmBuilder` 
+When annotating a Kotlin `data class` with `@GenerateBuilder`
 ``` 
 @JvmBuilder
 data class Test(val foo: Int = 1, val bar: String)

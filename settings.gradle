@@ -1,4 +1,4 @@
-rootProject.name = 'jvmbuilder'
+rootProject.name = 'kbuilder'
 include ':builder:sample'
 include ':builder:annotations'
 include ':builder:processor'

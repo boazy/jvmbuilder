@@ -1,4 +1,4 @@
-import com.example.JvmBuilder_TestDataClass1;
+import com.example.TestDataClass1Builder;
 import com.pholser.junit.quickcheck.Property;
 import com.pholser.junit.quickcheck.runner.JUnitQuickcheck;
 import java.util.List;
@@ -9,6 +9,9 @@ public class TestDataClass1Test {
 
   @Property
   public void name(List<String> names, int counter) {
-    new JvmBuilder_TestDataClass1().name(names).counter(counter).build();
+    new TestDataClass1Builder()
+            .name(names)
+            .counter(counter)
+            .build();
   }
 }
